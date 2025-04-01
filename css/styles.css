@@ -42,7 +42,7 @@
     line-height: 35.544px;
     text-align: left;
     white-space: nowrap;
-
+    text-decoration: none;
 }
 
 .frame{
@@ -271,7 +271,7 @@
 }
 
 .looking-for .indented{
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .frame-3{
@@ -606,6 +606,51 @@
     z-index: 16;
 }
 
+/* .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: Poppins, var(--default-font-family);
+}
+
+.card {
+    background-color: #F8F9FA;
+    padding: 20px;
+    border-radius: 15px;
+    width: 300px;
+    height: 200px;
+}
+
+.card h3 {
+    color: #00aaff;
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card ul li {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 5px 0;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.card ul li i {
+    margin-right: 8px;
+} */
+
 /* .my-project{
     display: block;
     position: relative;
@@ -635,3 +680,6 @@
     white-space: nowrap;
     z-index: 58;
 } */ 
+
+
+/* Portfolio */
