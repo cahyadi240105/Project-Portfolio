@@ -1,0 +1,323 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+        "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+        "Source Han Sans CN", sans-serif;
+}
+.main-container{
+    overflow: hidden;
+}
+.main-container,
+.main-container *{
+    box-sizing: border-box;
+}
+.main-container{
+    position: relative;
+    width: 1440px;
+    height: 4034px;
+    margin: 0 auto;
+    background-color: #0D1B2A;
+    overflow: hidden;
+}
+
+.flex-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 1208px;
+    height: 36px;
+    margin: 56 0 0 100px;
+    z-index: 134;
+}
+
+.logo{
+    flex-shrink: 0;
+    position: relative;
+    height: 36px;
+    color: #ffffff;
+    font-family: Space Mono, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35.544px;
+    text-align: left;
+    white-space: nowrap;
+
+}
+
+.frame{
+    flex-shrink: 0;
+    position: relative;
+    width: 632px;
+    height: 33px;
+    z-index: 134;
+    overflow: hidden;
+}
+
+/* Navbar */
+.home{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 36px;
+    top: -3px;
+    left: 9px;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35.544px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 136;
+    text-decoration: none;
+}
+
+.about {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 36px;
+    top: -3px;
+    left: 133px;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35.544px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 137;
+    text-decoration: none;
+}
+
+.services {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 36px;
+    top: -3px;
+    left: 232px;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35.544px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 138;
+    text-decoration: none;
+}
+
+.portfolio {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 36px;
+    top: -3px;
+    left: 370px;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35.544px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 139;
+    text-decoration: none;
+}
+
+.contact {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 36px;
+    top: -3px;
+    left: 5322px;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35.544px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 135;
+    text-decoration: none;
+}
+/* Home */
+.flex-row-c {
+    position: relative;
+    width: 1223px;
+    height: 517px;
+    margin: 58px 0 0 96px;
+    z-index: 143;
+}
+
+.profil-image{
+    position: absolute;
+    width: 349px;
+    height: 463px;
+    top: 0;
+    left: 874px;
+    background: url(../img/profil.png) no-repeat center;
+    background-size: cover;
+    z-index: 143;
+}
+
+.hello-world {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 48px;
+    top: 106px;
+    left: 0;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 48px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    height: 72px;
+    top: 136px;
+    left: 2px;
+    color : #ffffff;
+    font-family: Poppins,var(--default-font-family);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 4;
+}
+
+.student {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 48px;
+    top: 219px;
+    left: 2px;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 48px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 2;
+}
+
+.student-2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 48px;
+    top: 219px;
+    left: 191px;
+    color: #00bfff;
+    font-family: Poppins, 
+    var(--default-font-family);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 48px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 3;
+}
+
+.looking-for{
+    position: absolute;
+    width: 856px;
+    height: 144px;
+    top: 280px;
+    left: 50%;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    background: no-repeat center;
+    background-size: cover;
+    transform: translate(-71.2%, 0);
+    z-index: 5;
+    color: #ffffff;
+}
+
+.looking-for p{
+    margin : 0;
+    padding: 0;
+}
+
+.break{
+    display: inline-block;
+    text-indent: 60px;
+}
+
+.looking-for .indented{
+    margin-left: 10px;
+}
+
+.frame-3{
+    position: absolute;
+    width: 288px;
+    height: 83px;
+    top: 434px;
+    left: 15px;
+    z-index: 129;
+    overflow: hidden;
+}
+
+.frame-7{
+    position: relative;
+    width: 299px;
+    height: 84px;
+    margin: -2px 0 0 100px;
+    z-index: 140;
+    overflow: hidden;
+}
+
+.rectangle{
+    position: absolute;
+    width: 259px;
+    height: 60px;
+    top: 14px;
+    left: 16px;
+    background: #00bfff;
+    z-index: 141;
+    border-radius: 20px;
+}
+
+.contact-me{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 36px;
+    top: 26px;
+    left: 70px;
+    color: #ffffff;
+    font-family: Space Mono, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 142;
+    text-decoration: none;
+}
