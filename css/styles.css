@@ -4,6 +4,9 @@
         "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
         "Source Han Sans CN", sans-serif;
 }
+.main-container{
+    overflow: hidden;
+}
 .main-container,
 .main-container *{
     box-sizing: border-box;
@@ -24,7 +27,7 @@
     position: relative;
     width: 1208px;
     height: 36px;
-    margin: 56 0 0 100px;
+    margin: 56px 0 0 100px;
     z-index: 134;
 }
 
@@ -61,7 +64,7 @@
     top: -3px;
     left: 9px;
     color: #ffffff;
-    font-family: Poppins, var(--default-font-family);
+    font-family: Space Mono, var(--default-font-family);
     font-size: 24px;
     font-weight: 700;
     line-height: 35.544px;
@@ -80,7 +83,7 @@
     top: -3px;
     left: 133px;
     color: #ffffff;
-    font-family: Poppins, var(--default-font-family);
+    font-family: Space Mono, var(--default-font-family);
     font-size: 24px;
     font-weight: 700;
     line-height: 35.544px;
@@ -99,7 +102,7 @@
     top: -3px;
     left: 232px;
     color: #ffffff;
-    font-family: Poppins, var(--default-font-family);
+    font-family: Space Mono, var(--default-font-family);
     font-size: 24px;
     font-weight: 700;
     line-height: 35.544px;
@@ -118,7 +121,7 @@
     top: -3px;
     left: 370px;
     color: #ffffff;
-    font-family: Poppins, var(--default-font-family);
+    font-family: Space Mono, var(--default-font-family);
     font-size: 24px;
     font-weight: 700;
     line-height: 35.544px;
@@ -135,9 +138,9 @@
     position: absolute;
     height: 36px;
     top: -3px;
-    left: 532px;
+    left: 523px;
     color: #ffffff;
-    font-family: Poppins, var(--default-font-family);
+    font-family: Space Mono, var(--default-font-family);
     font-size: 24px;
     font-weight: 700;
     line-height: 35.544px;
@@ -534,8 +537,8 @@
     margin: 61px 0 0 151px;
     z-index: 83;
     overflow: visible auto;
-    align-items: center;
-    text-align: center;
+    /* align-items: center;
+    text-align: center; */
 }
 
 .our-services{
@@ -603,7 +606,7 @@
     z-index: 16;
 }
 
-.my-project{
+/* .my-project{
     display: block;
     position: relative;
     height: 30px;
@@ -618,7 +621,7 @@
     z-index: 59;
 }
 
-.projects-worked-on{
+ .projects-work-on{
     display: block;
     position: relative;
     height : 24px;
@@ -631,327 +634,4 @@
     text-align: left;
     white-space: nowrap;
     z-index: 58;
-}
-
-.frame-f {
-    position: relative;
-    width: 1138px;
-    height: 166px;
-    margin: 13px 0 0 0;
-    z-index: 61;
-    overflow: hidden;
-}
-
-.rectangle-10 {
-    position: absolute;
-    width: 210px;
-    height: 165px;
-    top: 0;
-    left: 0;
-    background: #f8f9fa;
-    z-index: 62;
-    border-radius: 15px;
-}
-
-.rectangle-11 {
-    position: absolute;
-    width: 210px;
-    height: 165px;
-    top: 0;
-    left: 232px;
-    background: #f8f9fa;
-    z-index: 64;
-    border-radius: 15px;
-}
-
-.rectangle-12 {
-    position: absolute;
-    width: 210px;
-    height: 165px;
-    top: 0;
-    left: 464px;
-    background: #f8f9fa;
-    z-index: 66;
-    border-radius: 15px;
-}
-
-.rectangle-13 {
-    position: absolute;
-    width: 210px;
-    height: 165px;
-    top: 0;
-    left: 696px;
-    background: #f8f9fa;
-    z-index: 69;
-    border-radius: 15px;
-}
-
-.rectangle-14 {
-    position: absolute;
-    width: 210px;
-    height: 165px;
-    top: 0;
-    left: 928px;
-    background: #f8f9fa;
-    z-index: 71;
-    border-radius: 15px;
-}
-
-.pemilihan-ketua-osis {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    height: 24px;
-    top: 3px;
-    left: 17px;
-    color: #000000;
-    font-family: Poppins, var(--default-font-family);
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    text-align: left;
-    white-space: nowrap;
-    z-index: 77;
-}
-
-.e-tamu {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    height: 24px;
-    top: 3px;
-    left: 301px;
-    color: #000000;
-    font-family: Poppins, var(--default-font-family);
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    text-align: left;
-    white-space: nowrap;
-    z-index: 78;
-}
-
-.lamp-sensor {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    height: 24px;
-    top: 3px;
-    left: 747px;
-    color: #000000;
-    font-family: Poppins, var(--default-font-family);
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    text-align: left;
-    white-space: nowrap;
-    z-index: 80;
-}
-
-.game-smart-courier {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    height: 24px;
-    top: 5px;
-    left: 481px;
-    color: #000000;
-    font-family: Poppins, var(--default-font-family);
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    text-align: left;
-    white-space: nowrap;
-    z-index: 79;
-}
-
-.inventory {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    height: 24px;
-    top: 5px;
-    left: 993px;
-    color: #000000;
-    font-family: Poppins, var(--default-font-family);
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    text-align: left;
-    white-space: nowrap;
-    z-index: 81;
-}
-
-.image {
-    position: absolute;
-    width: 210px;
-    height: 80px;
-    top: 27px;
-    left: 0;
-    background: url(https://static.codia.ai/custom_image/2025-04-01/015342/project-pemilihan-image.png) no-repeat center;
-    background-size: contain;
-    z-index: 72;
-    border-radius: 5px;
-}
-
-.image-15 {
-    position: absolute;
-    width: 210px;
-    height: 79px;
-    top: 28px;
-    left: 232px;
-    background: url(https://static.codia.ai/custom_image/2025-04-01/015342/project-etamu-image.png) no-repeat center;
-    background-size: cover;
-    z-index: 73;
-    border-radius: 5px;
-}
-
-.screenshot {
-    position: absolute;
-    width: 210px;
-    height: 80px;
-    top: 29px;
-    left: 464px;
-    background: url(https://static.codia.ai/custom_image/2025-04-01/015342/project-game-courier-image.png) no-repeat center;
-    background-size: contain;
-    z-index: 74;
-    border-radius: 5px;
-}
-
-.image-16 {
-    position: absolute;
-    width: 210px;
-    height: 80px;
-    top: 29px;
-    left: 696px;
-    background: url(https://static.codia.ai/custom_image/2025-04-01/015342/project-lamp-sensor-image.png) no-repeat center;
-    background-size: contain;
-    z-index: 75;
-    border-radius: 5px;
-}
-
-.image-17 {
-    position: absolute;
-    width: 210px;
-    height: 80px;
-    top: 29px;
-    left: 928px;
-    background: url(https://static.codia.ai/custom_image/2025-04-01/015342/project-inventory-image.png) no-repeat center;
-    background-size: contain;
-    z-index: 76;
-    border-radius: 5px;
-}
-
-.website-pemilihan-ketua-osis {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    position: absolute;
-    width: 197px;
-    height: 54px;
-    top: 112px;
-    left: 6px;
-    color: #000000;
-    font-family: Poppins, var(--default-font-family);
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 18px;
-    text-align: center;
-    z-index: 63;
-}
-
-.website-pencatatan-jadwal-kunjungan-tamu {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    position: absolute;
-    width: 197px;
-    height: 54px;
-    top: 112px;
-    left: 238px;
-    color: #000000;
-    font-family: Poppins, var(--default-font-family);
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 18px;
-    text-align: center;
-    z-index: 65;
-}
-
-.projek-mk-paa {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    position: absolute;
-    width: 197px;
-    height: 36px;
-    top: 112px;
-    left: 470px;
-    color: #000000;
-    font-family: Poppins, var(--default-font-family);
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 18px;
-    text-align: center;
-    z-index: 67;
-}
-
-.sensor-led {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    position: absolute;
-    width: 197px;
-    height: 36px;
-    top: 112px;
-    left: 696px;
-    color: #000000;
-    font-family: Poppins, var(--default-font-family);
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 18px;
-    text-align: center;
-    z-index: 70;
-}
-
-.website-pencatatan-barang {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    position: absolute;
-    width: 197px;
-    height: 54px;
-    top: 112px;
-    left: 934px;
-    color: #000000;
-    font-family: Poppins, var(--default-font-family);
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 18px;
-    text-align: center;
-    z-index: 82;
-}
-
-.ongoing {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    position: absolute;
-    width: 53px;
-    height: 18px;
-    top: 147px;
-    left: 542px;
-    color: #ffd700;
-    font-family: Poppins, var(--default-font-family);
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 18px;
-    text-align: center;
-    white-space: nowrap;
-    z-index: 68;
-}
+} */ 
