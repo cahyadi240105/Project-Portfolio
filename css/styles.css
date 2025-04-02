@@ -13,6 +13,7 @@
 }
 .main-container{
     position: relative;
+    max-width: 1440px;
     width: 1440px;
     height: 4034px;
     margin: 0 auto;
@@ -683,3 +684,270 @@
 
 
 /* Portfolio */
+.portfolio-section{
+    position: relative;
+    width: 1440px;
+    height: 745px;
+    margin: 0;
+    background: #243B55;
+    z-index: 86;
+    overflow: hidden;
+}
+
+.my-portfolio{
+    position: relative;
+    width: 331px;
+    height: 67px;
+    margin: 64px 0 0 550px;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 67px;
+    text-align: center;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 87;
+}
+
+.my{
+    position: relative;
+    color: #ffffff;
+    font-family: Space Mono, var(--default-font-family);
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 67.5px;
+    text-align: center;
+}
+
+.portfolio-30{
+    position: relative;
+    color: #ffd700;
+    font-family: Space Mono, var(--default-font-family);
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 67.5px;
+    text-align: center;
+}
+
+.achievements{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 147px;
+    height: 30px;
+    margin: 0 0 0 647px;
+    color: #d3d3d3;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 88;
+}
+
+.frame-sertif{
+    position: relative;
+    width: 524px;
+    height: 484px;
+    margin: 25px 0 0 459px;
+    z-index: 89;
+    overflow: hidden;
+}
+
+.sertifikat-ukk{
+    position: absolute;
+    width: 216px;
+    height: 348px;
+    top: 26px;
+    left: 39px;
+    font-size: 0px;
+    z-index: 90;
+    overflow: hidden;
+}
+
+.sertifikasi{
+    display: block;
+    position: relative;
+    height: 24px;
+    margin: 14px 0 0 63px;
+    color: black;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 91;
+}
+
+.sertifikasi-kompetensi-page{
+    display: flex;
+    align-items: flex-start;
+    width: 213.683px;
+    height: 302px;
+    margin: 0 0 0 3px;
+    background: url(../img/SERTIFIKAT\ KOMPETENSI_page-0001.jpg) no-repeat center;
+    background-size: contain;
+    z-index: -Infinity;
+    border-radius: 10px;
+}
+
+.sertifikat-pkl{
+    position: absolute;
+    width: 216px;
+    height: 348px;
+    top: 26px;
+    left: 275px;
+    font-size: 0px;
+    z-index: 93;
+    overflow: hidden;
+}
+
+.sertifikasi-magang{
+    display: block;
+    position: relative;
+    height: 24px;
+    margin: 14px 0 0 63px;
+    color: black;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 94;
+}
+
+.pkl-page{
+    display: flex;
+    align-items: flex-start;
+    width: 213.683px;
+    height: 302px;
+    margin: 0;
+    background: url(../img/PKL_page-0001.jpg) no-repeat center;
+    background-size: contain;
+    z-index: -Infinity;
+    border-radius: 10px;
+    /* transform: rotate(90deg); */
+}
+
+/* Contact */
+.contact-section{
+    position: relative;
+    width: 1440px;
+    height: 745px;
+    margin: 0;
+    z-index: 96;
+    overflow: hidden;
+}
+
+.my-contact{
+    position: relative;
+    width: 276px;
+    height: 67px;
+    margin: 63px 0 0 581px;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 67px;
+    text-align: center;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 97;
+}
+
+.my-35{
+    position: relative;
+    color: #ffffff;
+    font-family: Space Mono, var(--default-font-family);
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 67.5px;
+    text-align: center;
+}
+
+.contact-36{
+    position: relative;
+    color: #ffd700;
+    font-family: Space Mono, var(--default-font-family);
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 67.5px;
+    text-align: center;   
+}
+
+.freelance{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 655px;
+    height: 21px;
+    margin: 1px 0 0 382px;
+    color: #d3d3d3;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 21px;
+    white-space: nowrap;
+    z-index: 98;
+}
+
+.flex-row-fa{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 853px;
+    height: 36px;
+    margin: 43px 0 0 148px;
+    z-index: 111;
+}
+
+.get-to-know{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    width: 339px;
+    height: 36px;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 36px;
+    white-space: nowrap;
+    z-index: 111;
+}
+
+.your-project{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    width: 209px;
+    height: 36px;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 36px;
+    white-space: nowrap;
+    z-index: 110;
+    
+}
+
+.flex-row-f{
+    position: relative;
+    width: 1087px;
+    height: 446px;
+    margin: -5px 0 0 180px;
+    z-index: 144;
+}
