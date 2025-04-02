@@ -608,8 +608,1057 @@
 }
 
 /* Skill */
+.frame-1b {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    position: absolute;
+    width: 852px;
+    height: 198px;
+    top: 160px;
+    left: 50%;
+    padding: 10px 16px 10px 16px;
+    transform: translate(-50%, 0);
+    z-index: 17;
+    overflow: hidden;
+}
+
+.rectangle-1c {
+    flex-shrink: 0;
+    position: relative;
+    width: 190px;
+    height: 178px;
+    background: #f8f9fa;
+    z-index: 18;
+    border-radius: 15px;
+}
+
+.vector-1d {
+    flex-shrink: 0;
+    position: absolute;
+    height: 12px;
+    top: 51px;
+    right: 818px;
+    left: 23px;
+    background: url(https://static.codia.ai/custom_image/2025-04-01/015342/html-icon.svg) no-repeat center;
+    background-size: cover;
+    z-index: 55;
+}
+
+.vector-1e {
+    flex-shrink: 0;
+    position: absolute;
+    height: 12px;
+    top: 73px;
+    right: 818px;
+    left: 23px;
+    background: url(https://static.codia.ai/custom_image/2025-04-01/015342/javascript-icon.svg) no-repeat center;
+    background-size: cover;
+    z-index: 56;
+}
+
+.javascript {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: absolute;
+    width: 66px;
+    height: 18px;
+    top: 70px;
+    left: 36px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 48;
+}
+
+.html-5 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: absolute;
+    width: 43px;
+    height: 18px;
+    top: 49px;
+    left: 37px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 46;
+}
+
+.web-development {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: absolute;
+    width: 115px;
+    height: 18px;
+    top: 17px;
+    left: 60px;
+    color: #00bfff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 37;
+}
+
+.vector-1f {
+    flex-shrink: 0;
+    position: absolute;
+    height: 12px;
+    top: 51px;
+    right: 728px;
+    left: 113px;
+    background: url(https://static.codia.ai/custom_image/2025-04-01/015342/css-icon.svg) no-repeat center;
+    background-size: cover;
+    z-index: 22;
+}
+
+.vector-20 {
+    flex-shrink: 0;
+    position: absolute;
+    height: 12px;
+    top: 73px;
+    right: 728px;
+    left: 113px;
+    background: url(https://static.codia.ai/custom_image/2025-04-01/015342/bootstrap-icon.svg) no-repeat center;
+    background-size: cover;
+    z-index: 23;
+}
+
+.css-3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: absolute;
+    width: 34px;
+    height: 18px;
+    top: 48px;
+    left: 127px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 47;
+}
+
+.bootstrap-5 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: absolute;
+    width: 71px;
+    height: 18px;
+    top: 70px;
+    left: 127px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 49;
+}
+
+.rectangle-21 {
+    flex-shrink: 0;
+    position: relative;
+    width: 190px;
+    height: 178px;
+    background: url(https://static.codia.ai/custom_image/2025-04-01/015342/programming-languages-background.svg) no-repeat center;
+    background-size: cover;
+    z-index: 19;
+}
+
+.vector-22 {
+    flex-shrink: 0;
+    position: absolute;
+    width: 1.29%;
+    height: 6.06%;
+    top: 46.97%;
+    left: 27.7%;
+    background: url(https://static.codia.ai/custom_image/2025-04-01/015342/php-icon.svg) no-repeat center;
+    background-size: 100% 100%;
+    z-index: 24;
+}
+
+.vector-23 {
+    flex-shrink: 0;
+    position: absolute;
+    height: 12px;
+    top: 52px;
+    right: 605px;
+    left: 236px;
+    background: url(https://static.codia.ai/custom_image/2025-04-01/015342/php-text-icon.svg) no-repeat center;
+    background-size: cover;
+    z-index: 26;
+}
+
+.vector-24 {
+    flex-shrink: 0;
+    position: absolute;
+    width: 1.29%;
+    height: 6.06%;
+    top: 36.87%;
+    left: 27.7%;
+    background: url(https://static.codia.ai/custom_image/2025-04-01/015342/java-icon.svg) no-repeat center;
+    background-size: 100% 100%;
+    z-index: 27;
+}
+
+.programming-languages {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: absolute;
+    width: 158px;
+    height: 18px;
+    top: 17px;
+    left: 242px;
+    color: #00bfff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 38;
+}
+
+.php {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: absolute;
+    width: 24px;
+    height: 18px;
+    top: 49px;
+    left: 251px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 31;
+}
+
+.laravel {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: absolute;
+    width: 45px;
+    height: 18px;
+    top: 112px;
+    left: 252px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 30;
+}
+
+.java {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: absolute;
+    width: 31px;
+    height: 18px;
+    top: 70px;
+    left: 252px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 33;
+}
+
+.c {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: absolute;
+    width: 10px;
+    height: 18px;
+    top: 91px;
+    left: 252px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 35;
+}
+
+.vector-25 {
+    flex-shrink: 0;
+    position: absolute;
+    width: 1.29%;
+    height: 6.06%;
+    top: 46.97%;
+    left: 35.68%;
+    background: url(https://static.codia.ai/custom_image/2025-04-01/015342/c-icon.svg) no-repeat center;
+    background-size: 100% 100%;
+    z-index: 25;
+}
+
+.vector-26 {
+    flex-shrink: 0;
+    position: absolute;
+    width: 1.29%;
+    height: 6.06%;
+    top: 26.26%;
+    left: 35.68%;
+    background: url(https://static.codia.ai/custom_image/2025-04-01/015342/python-icon.svg) no-repeat center;
+    background-size: 100% 100%;
+    z-index: 28;
+}
+
+.vector-27 {
+    flex-shrink: 0;
+    position: absolute;
+    width: 1.29%;
+    height: 6.06%;
+    top: 36.87%;
+    left: 35.68%;
+    background: url(https://static.codia.ai/custom_image/2025-04-01/015342/r-icon.svg) no-repeat center;
+    background-size: 100% 100%;
+    z-index: 29;
+}
+
+.python {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: absolute;
+    width: 43px;
+    height: 18px;
+    top: 49px;
+    left: 319px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 32;
+}
+
+.r {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: absolute;
+    width: 8px;
+    height: 18px;
+    top: 70px;
+    left: 319px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 34;
+}
+
+.text-2f {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: absolute;
+    width: 26px;
+    height: 18px;
+    top: 91px;
+    left: 319px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 36;
+}
+
+.rectangle-28 {
+    flex-shrink: 0;
+    position: relative;
+    width: 190px;
+    height: 178px;
+    background: url(https://static.codia.ai/custom_image/2025-04-01/015342/tools-background.svg) no-repeat center;
+    background-size: cover;
+    z-index: 20;
+}
+
+.vector-29 {
+    flex-shrink: 0;
+    position: absolute;
+    height: 6.06%;
+    top: 26.26%;
+    right: 398px;
+    left: 443px;
+    background: url(https://static.codia.ai/custom_image/2025-04-01/015342/git-icon.svg) no-repeat center;
+    background-size: cover;
+    z-index: 40;
+}
+
+.vector-2a {
+    flex-shrink: 0;
+    position: absolute;
+    height: 6.06%;
+    top: 36.87%;
+    right: 398px;
+    left: 443px;
+    background: url(https://static.codia.ai/custom_image/2025-04-01/015342/netbeans-icon.svg) no-repeat center;
+    background-size: cover;
+    z-index: 41;
+}
+
+.git {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 49px;
+    left: 456px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 50;
+}
+
+.netbeans {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: absolute;
+    width: 59px;
+    height: 18px;
+    top: 70px;
+    left: 456px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 53;
+}
+
+.vector-2b {
+    flex-shrink: 0;
+    position: absolute;
+    height: 6.06%;
+    top: 26.26%;
+    right: 345px;
+    left: 496px;
+    background: url(https://static.codia.ai/custom_image/2025-04-01/015342/github-icon.svg) no-repeat center;
+    background-size: cover;
+    z-index: 42;
+}
+
+.github {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: absolute;
+    width: 42px;
+    height: 18px;
+    top: 49px;
+    left: 510px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 51;
+}
+
+.tools {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: absolute;
+    width: 33px;
+    height: 18px;
+    top: 17px;
+    left: 514px;
+    color: #00bfff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 43;
+}
+
+.vector-2c {
+    flex-shrink: 0;
+    position: absolute;
+    height: 6.06%;
+    top: 26.26%;
+    right: 283px;
+    left: 558px;
+    background: url(https://static.codia.ai/custom_image/2025-04-01/015342/vscode-icon.svg) no-repeat center;
+    background-size: cover;
+    z-index: 39;
+}
+
+.vs-code {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: absolute;
+    width: 52px;
+    height: 18px;
+    top: 49px;
+    left: 572px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 52;
+}
+
+.rectangle-2d {
+    flex-shrink: 0;
+    position: relative;
+    width: 190px;
+    height: 178px;
+    background: url(https://static.codia.ai/custom_image/2025-04-01/015342/database-background.svg) no-repeat center;
+    background-size: cover;
+    z-index: 21;
+}
+
+.vector-2e {
+    flex-shrink: 0;
+    position: absolute;
+    height: 6.06%;
+    top: 26.26%;
+    right: 188px;
+    left: 653px;
+    background: url(https://static.codia.ai/custom_image/2025-04-01/015342/mysql-icon.svg) no-repeat center;
+    background-size: cover;
+    z-index: 44;
+}
+
+.database-management {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: absolute;
+    width: 150px;
+    height: 18px;
+    top: 17px;
+    left: 666px;
+    color: #00bfff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 45;
+}
+
+.mysql {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: absolute;
+    width: 41px;
+    height: 18px;
+    top: 49px;
+    left: 666px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 54;
+}
+
+.sync {
+    position: absolute;
+    width: 10px;
+    height: 14px;
+    top: 275px;
+    left: 380px;
+    background: url(https://static.codia.ai/custom_image/2025-04-01/015342/sync-icon.svg) no-repeat center;
+    background-size: cover;
+    z-index: 57;
+    overflow: hidden;
+}
+
+.image-2f {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    width: 190.646px;
+    height: 117px;
+    margin: 50px 0 0 -206px;
+    background: url() no-repeat center;
+    background-size: cover;
+    z-index: -Infinity;
+}
 
 /* Project */
+.frame-f{
+    position: relative;
+    width: 1138px;
+    height: 166px;
+    margin: 13px 0 0 0;
+    z-index: 61;
+    overflow: hidden;
+}
+
+.rectangle-10 {
+    position: absolute;
+    width: 210px;
+    height: 165px;
+    top: 0;
+    left: 0;
+    background: #f8f9fa;
+    z-index: 62;
+    border-radius: 15px;
+}
+
+.rectangle-11 {
+    position: absolute;
+    width: 210px;
+    height: 165px;
+    top: 0;
+    left: 232px;
+    background: #f8f9fa;
+    z-index: 64;
+    border-radius: 15px;
+}
+
+.rectangle-12 {
+    position: absolute;
+    width: 210px;
+    height: 165px;
+    top: 0;
+    left: 464px;
+    background: #f8f9fa;
+    z-index: 66;
+    border-radius: 15px;
+}
+
+.rectangle-13 {
+    position: absolute;
+    width: 210px;
+    height: 165px;
+    top: 0;
+    left: 696px;
+    background: #f8f9fa;
+    z-index: 69;
+    border-radius: 15px;
+}
+
+.rectangle-14 {
+    position: absolute;
+    width: 210px;
+    height: 165px;
+    top: 0;
+    left: 928px;
+    background: #f8f9fa;
+    z-index: 71;
+    border-radius: 15px;
+}
+
+.pemilihan-ketua-osis {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 3px;
+    left: 17px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 77;
+}
+
+.e-tamu {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 3px;
+    left: 301px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 78;
+}
+
+.lamp-sensor {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 3px;
+    left: 747px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 80;
+}
+
+.game-smart-courier {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 5px;
+    left: 481px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 79;
+}
+
+.inventory {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 5px;
+    left: 993px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 81;
+}
+
+/* Pilketos */
+.image { 
+    position: absolute;
+    width: 210px;
+    height: 80px;
+    top: 27px;
+    left: 0;
+    background: url(../img/Pilketos.png) no-repeat center;
+    background-size: contain;
+    z-index: 72;
+    border-radius: 5px;
+}
+
+/* E-Tamu */
+.image-15 {
+    position: absolute;
+    width: 210px;
+    height: 79px;
+    top: 28px;
+    left: 232px;
+    background: url(../img/E-Tamu.png) no-repeat center;
+    background-size: contain;
+    z-index: 73;
+    border-radius: 5px;
+}
+
+/* Game Smart */
+.screenshot {
+    position: absolute;
+    width: 210px;
+    height: 80px;
+    top: 29px;
+    left: 464px;
+    background: url(../img/Smart-Game.png) no-repeat center;
+    background-size: contain;
+    z-index: 74;
+    border-radius: 5px;
+}
+
+/* Lamp Sensor */
+.image-16 {
+    position: absolute;
+    width: 210px;
+    height: 80px;
+    top: 29px;
+    left: 696px;
+    background: url(../img/Lamp-Sensor.png) no-repeat center;
+    background-size: contain;
+    z-index: 75;
+    border-radius: 5px;
+}
+
+/* Inventory */
+.image-17 {
+    position: absolute;
+    width: 210px;
+    height: 80px;
+    top: 29px;
+    left: 928px;
+    background: url(../img/Inventory.png) no-repeat center;
+    background-size: contain;
+    z-index: 76;
+    border-radius: 5px;
+}
+
+.website-pemilihan-ketua-osis {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 197px;
+    height: 54px;
+    top: 112px;
+    left: 6px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    z-index: 63;
+}
+
+.website-pencatatan-jadwal-kunjungan-tamu {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 197px;
+    height: 54px;
+    top: 112px;
+    left: 238px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    z-index: 65;
+}
+
+.projek-mk-paa {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 197px;
+    height: 36px;
+    top: 112px;
+    left: 470px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    z-index: 67;
+}
+
+.sensor-led {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 197px;
+    height: 36px;
+    top: 112px;
+    left: 696px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    z-index: 70;
+}
+
+.website-pencatatan-barang {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 197px;
+    height: 54px;
+    top: 112px;
+    left: 934px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    z-index: 82;
+}
+
+.ongoing {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 53px;
+    height: 18px;
+    top: 147px;
+    left: 542px;
+    color: #ffd700;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 68;
+}
+
+.frame-18 {
+    position: relative;
+    width: 90px;
+    height: 25px;
+    margin: 30px 0 0 523px;
+    font-size: 0px;
+    z-index: 83;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.see-more-19 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 59px;
+    height: 15px;
+    margin: 5px 0 0 20px;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 85;
+    text-decoration: none;
+}
+
+.rectangle-1a {
+    position: absolute;
+    width: 99px;
+    height: 25px;
+    top: 0;
+    left: 50%;
+    background: #00bfff;
+    transform: translate(-50.51%, 0);
+    z-index: 84;
+    border-radius: 5px;
+}
 
 .my-project{
     display: block;
@@ -1290,4 +2339,67 @@ button{
     text-align: left;
     white-space: nowrap;
     z-index: 119;
+}
+
+/* Icon Footer */
+.frame-44{
+    position: absolute;
+    width: 288px;
+    height: 83px;
+    top: 3px;
+    left: 686px;
+    z-index: 113;
+    overflow: hidden;
+}
+
+.vector-45{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    left: 50%;
+    background-size: cover;
+    transform: translate(217.5% , -41.25%);
+    z-index: 114;
+    color: #ffffff;
+    background: no-repeat center;
+}
+
+.vector-46{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    left: 50%;
+    background-size: cover;
+    transform: translate(-337.5%, -41.25%);
+    z-index: 115;
+    color: #ffffff;
+    background: no-repeat center;
+}
+
+.vector-47{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    left: 50%;
+    background-size: cover;
+    transform: translate(-157.5%, -41.25%);
+    z-index: 116;
+    color: #ffffff;
+    background: no-repeat center;
+}
+
+.vector-48{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    left: 50%;
+    background-size: cover;
+    transform: translate(17.5%, -41.25%);
+    z-index: 117;
+    color: #ffffff;
+    background: no-repeat center;
 }
