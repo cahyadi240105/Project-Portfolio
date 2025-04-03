@@ -1,15 +1,17 @@
 :root {
-    --primary-color: #ffd700;
-    --secondary-color: #00bfff;
-    --dark-bg: #0d1b2a;
-    --form-bg: #243b55;
-    --text-light: #ffffff;
-    --text-muted: #d3d3d3;
+    --primary-color: #ffffff;
+    --accent-color: #ffd700;
+    --bg-color: #0d1b2a;
+    --form-bg-color: #243b55;
+    --button-color: #00bfff;
+    --text-light: #d3d3d3;
+    --text-dark: #000000;
+
     --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
         Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
         "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
         "Source Han Sans CN", sans-serif;
-    --title-font: "Space Mono", monospace;
+    --heading-font: "Space Mono", monospace;
     --body-font: "Poppins", var(--default-font-family);
 }
 .main-container{
@@ -1857,6 +1859,7 @@
 
 /* Contact */
 .contact-section {
+    width: 100%;
     max-width: 1440px;
     margin: 0 auto;
     padding: 60px 20px;
@@ -1865,7 +1868,6 @@
     align-items: center;
 }
 
-/* Header Styles */
 .contact-header {
     text-align: center;
     margin-bottom: 30px;
@@ -1876,91 +1878,91 @@
     font-weight: 700;
     line-height: 67px;
     margin-bottom: 10px;
+    font-family: var(--heading-font)
 }
 
-.title-my {
-    font-family: var(--title-font);
-    color: var(--text-light);
-}
-
-.title-contact {
-    font-family: var(--title-font);
+.title-primary {
     color: var(--primary-color);
+    font-family: var(--heading-font);
+}
+
+.title-accent {
+    color: var(--accent-color);
+    font-family: var(--heading-font);
 }
 
 .section-subtitle {
-    font-size: 14px;
-    font-weight: 600;
-    color: var(--text-muted);
-    max-width: 655px;
-    margin: 0 auto 10px;
-    font-family: var(--body-font) ;
-}
-
-.contact-cta {
-    font-size: 24px;
-    font-weight: 700;
-    color: var(--primary-color);
-    margin: 10px 0;
+    color: var(--text-light);
     font-family: var(--body-font);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    width: 665px;
+    margin: 0 auto;
 }
 
-/* Form Container Styles */
-.contact-form-container {
-    width: 100%;
-    max-width: 790px;
-    background-color: var(--form-bg);
+.contact-container {
+    width: 790px;
+    /* height: 414px; */
+    background-color: var(--form-bg-color);
     border-radius: 10px;
     padding: 40px 15px;
     margin-top: 10px;
 }
 
 .contact-form {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
 .form-group {
-    margin-bottom: 25px;
+    position: relative;
+    width: 100%;
 }
 
-.form-group input,
-.form-group textarea {
+.form-control {
     width: 100%;
+    height: 38px;
     padding: 10px 15px;
     border: none;
     border-radius: 15px;
-    font-family: var(--body-font);
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: 275;
+    color: var(--text-dark);
 }
 
-.form-group input {
-    height: 38px;
-}
-
-.form-group textarea {
-    resize: vertical;
-    min-height: 118px;
+.message-area {
+    height: 118px;
+    resize: none;
+    padding-top: 15px;
 }
 
 .form-submit {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .submit-button {
     position: relative;
-    background-color: var(--secondary-color);
+    width: 127px;
+    height: 31px;
+    background-color: var(--button-color);
     border: none;
     border-radius: 15px;
-    padding: 8px 20px;
     cursor: pointer;
+    overflow: hidden;
     transition: background-color 0.3s ease;
 }
 
+.submit-button:hover {
+    background-color: #0099cc;
+}
+
 .button-text {
-  font-family: var(--body-font);
-  font-size: 24px;
-  font-weight: 700;
-  color: var(--text-light);
+    color: var(--primary-color);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
 }
 
 /* Footer */
