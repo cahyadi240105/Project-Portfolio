@@ -14,14 +14,17 @@
     --heading-font: "Space Mono", monospace;
     --body-font: "Poppins", var(--default-font-family);
 }
-.main-container{
+
+.main-container {
     overflow: hidden;
 }
+
 .main-container,
-.main-container *{
+.main-container * {
     box-sizing: border-box;
 }
-.main-container{
+
+.main-container {
     position: relative;
     max-width: 1440px;
     width: 1440px;
@@ -31,7 +34,7 @@
     overflow: hidden;
 }
 
-.flex-row{
+.flex-row {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -42,7 +45,7 @@
     z-index: 134;
 }
 
-.logo{
+.logo {
     flex-shrink: 0;
     position: relative;
     height: 36px;
@@ -56,7 +59,7 @@
     text-decoration: none;
 }
 
-.frame{
+.frame {
     flex-shrink: 0;
     position: relative;
     width: 632px;
@@ -66,7 +69,7 @@
 }
 
 /* Navbar */
-.home{
+.home {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -160,6 +163,7 @@
     z-index: 135;
     text-decoration: none;
 }
+
 /* Home */
 .flex-row-c {
     position: relative;
@@ -169,7 +173,7 @@
     z-index: 143;
 }
 
-.profil-image{
+.profil-image {
     position: absolute;
     width: 349px;
     height: 463px;
@@ -198,7 +202,7 @@
     z-index: 1;
 }
 
-.name{
+.name {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -206,8 +210,8 @@
     height: 72px;
     top: 136px;
     left: 2px;
-    color : #ffffff;
-    font-family: Poppins,var(--default-font-family);
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
     font-size: 48px;
     font-weight: 700;
     line-height: 72px;
@@ -234,7 +238,7 @@
     z-index: 2;
 }
 
-.student-2{
+.student-2 {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -243,8 +247,8 @@
     top: 219px;
     left: 191px;
     color: #00bfff;
-    font-family: Poppins, 
-    var(--default-font-family);
+    font-family: Poppins,
+        var(--default-font-family);
     font-size: 32px;
     font-weight: 800;
     line-height: 48px;
@@ -253,7 +257,7 @@
     z-index: 3;
 }
 
-.looking-for{
+.looking-for {
     position: absolute;
     width: 856px;
     height: 144px;
@@ -271,21 +275,21 @@
     margin-bottom: 20px;
 }
 
-.looking-for p{
-    margin : 0;
+.looking-for p {
+    margin: 0;
     padding: 0;
 }
 
-.break{
+.break {
     display: inline-block;
     text-indent: 60px;
 }
 
-.looking-for .indented{
+.looking-for .indented {
     margin-left: 5px;
 }
 
-.frame-3{
+.frame-3 {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -312,7 +316,7 @@
     z-index: 131;
 }
 
-.vector-5{
+.vector-5 {
     position: absolute;
     width: 40px;
     height: 40px;
@@ -324,7 +328,7 @@
     z-index: 132;
 }
 
-.vector-6{
+.vector-6 {
     position: absolute;
     width: 40px;
     height: 40px;
@@ -336,7 +340,7 @@
     z-index: 133;
 }
 
-.vector-7{
+.vector-7 {
     position: absolute;
     width: 40px;
     height: 40px;
@@ -347,7 +351,8 @@
     transform: translate(217.5%, -41.25%);
     z-index: 130;
 }
-.frame-7{
+
+.frame-7 {
     position: relative;
     width: 299px;
     height: 84px;
@@ -356,7 +361,7 @@
     overflow: hidden;
 }
 
-.rectangle{
+.rectangle {
     position: absolute;
     width: 259px;
     height: 60px;
@@ -367,7 +372,7 @@
     border-radius: 20px;
 }
 
-.contact-me{
+.contact-me {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -388,17 +393,17 @@
 
 /* About */
 
-.about-section{
+.about-section {
     position: relative;
     width: 1440px;
     height: 745px;
     margin: 103px 0 0 0;
     background-color: #243B55;
-    z-index : 6;
+    z-index: 6;
     overflow: hidden;
 }
 
-.profil-image-8{
+.profil-image-8 {
     position: absolute;
     width: 349px;
     height: 463px;
@@ -409,7 +414,7 @@
     z-index: 145;
 }
 
-.flex-column-a{
+.flex-column-a {
     position: absolute;
     height: 450px;
     top: 103px;
@@ -418,7 +423,7 @@
     z-index: 10;
 }
 
-.about-me{
+.about-me {
     position: relative;
     width: 221px;
     height: 67px;
@@ -433,15 +438,16 @@
     z-index: 7;
 }
 
-.about-9{
+.about-9 {
     position: relative;
     color: #ffd700;
-    font-family: Space Mono,var(--default-font-family);
+    font-family: Space Mono, var(--default-font-family);
     font-size: 45px;
     line-height: 67.5px;
     font-weight: 700;
     text-align: left;
 }
+
 .nbsp {
     position: relative;
     color: #ffffff;
@@ -451,7 +457,8 @@
     font-weight: 700;
     text-align: left;
 }
-.me{
+
+.me {
     position: relative;
     color: #ffffff;
     font-family: Space Mono, var(--default-font-family);
@@ -461,7 +468,7 @@
     text-align: left;
 }
 
-.student-a{
+.student-a {
     display: block;
     position: relative;
     height: 36px;
@@ -476,9 +483,9 @@
     z-index: 9;
 }
 
-.passionate{
+.passionate {
     position: relative;
-    width : 706px;
+    width: 706px;
     height: 192px;
     margin: 24px 0 0 9px;
     font-family: Poppins, var(--default-font-family);
@@ -491,7 +498,7 @@
     z-index: 8;
 }
 
-.frame-b{
+.frame-b {
     position: relative;
     width: 183px;
     height: 70px;
@@ -500,7 +507,7 @@
     overflow: hidden;
 }
 
-.rectangle-c{
+.rectangle-c {
     position: absolute;
     width: 163px;
     height: 60px;
@@ -511,7 +518,7 @@
     border-radius: 20px;
 }
 
-.see-more{
+.see-more {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -531,7 +538,7 @@
 }
 
 /* Services */
-.services-section{
+.services-section {
     position: relative;
     width: 1440px;
     height: 745px;
@@ -541,7 +548,7 @@
     overflow: hidden;
 }
 
-.flex-column-edf{
+.flex-column-edf {
     position: relative;
     width: 1138px;
     height: 659px;
@@ -552,7 +559,7 @@
     text-align: center; */
 }
 
-.our-services{
+.our-services {
     position: relative;
     width: 342.353px;
     height: 80px;
@@ -567,7 +574,7 @@
     z-index: 14;
 }
 
-.our-services-d{
+.our-services-d {
     position: relative;
     color: #ffffff;
     font-family: Space Mono, var(--default-font-family);
@@ -577,7 +584,7 @@
     text-align: left;
 }
 
-.services-e{
+.services-e {
     position: relative;
     color: #ffd700;
     font-family: Space Mono, var(--default-font-family);
@@ -587,7 +594,7 @@
     text-align: left;
 }
 
-.skill{
+.skill {
     display: block;
     position: relative;
     height: 30px;
@@ -602,7 +609,7 @@
     z-index: 15;
 }
 
-.my-abilities{
+.my-abilities {
     display: block;
     position: relative;
     height: 24px;
@@ -1189,7 +1196,7 @@
     top: 25%;
     right: 283px;
     left: 558px;
-    background:  no-repeat center;
+    background: no-repeat center;
     background-size: cover;
     z-index: 39;
 }
@@ -1220,7 +1227,7 @@
     position: relative;
     width: 190px;
     height: 178px;
-    background:  no-repeat center;
+    background: no-repeat center;
     background-size: cover;
     z-index: 21;
     background-color: #F8F9FA;
@@ -1234,7 +1241,7 @@
     top: 25%;
     right: 188px;
     left: 653px;
-    background:  no-repeat center;
+    background: no-repeat center;
     background-size: cover;
     z-index: 44;
 }
@@ -1306,7 +1313,7 @@
 }
 
 /* Project */
-.frame-f{
+.frame-f {
     position: relative;
     width: 1138px;
     height: 166px;
@@ -1461,7 +1468,7 @@
 }
 
 /* Pilketos */
-.image { 
+.image {
     position: absolute;
     width: 210px;
     height: 80px;
@@ -1676,7 +1683,7 @@
     border-radius: 5px;
 }
 
-.my-project{
+.my-project {
     display: block;
     position: relative;
     height: 30px;
@@ -1691,24 +1698,24 @@
     z-index: 59;
 }
 
- .projects-work-on{
+.projects-work-on {
     display: block;
     position: relative;
-    height : 24px;
+    height: 24px;
     margin: 0 0 0 391px;
     color: #d3d3d3;
-    font-family: Poppins,var(--default-font-family);
+    font-family: Poppins, var(--default-font-family);
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     text-align: left;
     white-space: nowrap;
     z-index: 58;
-} 
+}
 
 
 /* Portfolio */
-.portfolio-section{
+.portfolio-section {
     position: relative;
     width: 1440px;
     height: 745px;
@@ -1718,7 +1725,7 @@
     overflow: hidden;
 }
 
-.my-portfolio{
+.my-portfolio {
     position: relative;
     width: 331px;
     height: 67px;
@@ -1733,7 +1740,7 @@
     z-index: 87;
 }
 
-.my{
+.my {
     position: relative;
     color: #ffffff;
     font-family: Space Mono, var(--default-font-family);
@@ -1743,7 +1750,7 @@
     text-align: center;
 }
 
-.portfolio-30{
+.portfolio-30 {
     position: relative;
     color: #ffd700;
     font-family: Space Mono, var(--default-font-family);
@@ -1753,7 +1760,7 @@
     text-align: center;
 }
 
-.achievements{
+.achievements {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -1771,7 +1778,7 @@
     z-index: 88;
 }
 
-.frame-sertif{
+.frame-sertif {
     position: relative;
     width: 524px;
     height: 484px;
@@ -1780,7 +1787,7 @@
     overflow: hidden;
 }
 
-.sertifikat-ukk{
+.sertifikat-ukk {
     position: absolute;
     width: 216px;
     height: 348px;
@@ -1791,7 +1798,7 @@
     overflow: hidden;
 }
 
-.sertifikasi{
+.sertifikasi {
     display: block;
     position: relative;
     height: 24px;
@@ -1806,7 +1813,7 @@
     z-index: 91;
 }
 
-.sertifikasi-kompetensi-page{
+.sertifikasi-kompetensi-page {
     display: flex;
     align-items: flex-start;
     width: 213.683px;
@@ -1818,7 +1825,7 @@
     border-radius: 10px;
 }
 
-.sertifikat-pkl{
+.sertifikat-pkl {
     position: absolute;
     width: 216px;
     height: 348px;
@@ -1829,7 +1836,7 @@
     overflow: hidden;
 }
 
-.sertifikasi-magang{
+.sertifikasi-magang {
     display: block;
     position: relative;
     height: 24px;
@@ -1844,7 +1851,7 @@
     z-index: 94;
 }
 
-.pkl-page{
+.pkl-page {
     display: flex;
     align-items: flex-start;
     width: 213.683px;
@@ -1954,10 +1961,6 @@
     transition: background-color 0.3s ease;
 }
 
-.submit-button:hover {
-    background-color: #0099cc;
-}
-
 .button-text {
     color: var(--primary-color);
     font-size: 24px;
@@ -1967,7 +1970,7 @@
 
 /* Footer */
 
-.footer-section{
+.footer-section {
     position: relative;
     width: 1440px;
     height: 202px;
@@ -1977,7 +1980,7 @@
     overflow: hidden;
 }
 
-.flex-row-e{
+.flex-row-e {
     position: relative;
     width: 793px;
     height: 24px;
@@ -1985,7 +1988,7 @@
     z-index: 127;
 }
 
-.lets-talk{
+.lets-talk {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -2003,7 +2006,7 @@
     z-index: 127;
 }
 
-.overview{
+.overview {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -2021,7 +2024,7 @@
     z-index: 120;
 }
 
-.follow-us{
+.follow-us {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -2039,7 +2042,7 @@
     z-index: 118;
 }
 
-.flex-row-aa{
+.flex-row-aa {
     position: absolute;
     width: 974px;
     height: 121px;
@@ -2048,7 +2051,7 @@
     z-index: 128;
 }
 
-.frame-3e{
+.frame-3e {
     position: absolute;
     width: 125px;
     height: 121px;
@@ -2059,13 +2062,13 @@
     overflow: hidden;
 }
 
-.home-3f{
+.home-3f {
     display: block;
     position: relative;
     height: 24px;
     margin: 0 0 0 23px;
     color: #ffffff;
-    font-family: Space Mono,var(--default-font-family);
+    font-family: Space Mono, var(--default-font-family);
     font-size: 16px;
     font-weight: 700;
     line-height: 23.696px;
@@ -2139,7 +2142,7 @@
     text-decoration: none;
 }
 
-.project-chat{
+.project-chat {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -2159,7 +2162,7 @@
     overflow: hidden;
 }
 
-.rights-reserved{
+.rights-reserved {
     display: flex;
     position: absolute;
     align-items: flex-start;
@@ -2168,7 +2171,7 @@
     top: 141px;
     left: 793px;
     color: #ffffff;
-    font-family: Poppins,var(--default-font-family);
+    font-family: Poppins, var(--default-font-family);
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -2178,7 +2181,7 @@
 }
 
 /* Icon Footer */
-.frame-44{
+.frame-44 {
     position: absolute;
     width: 288px;
     height: 83px;
@@ -2188,20 +2191,20 @@
     overflow: hidden;
 }
 
-.vector-45{
+.vector-45 {
     position: absolute;
     width: 40px;
     height: 40px;
     top: 50%;
     left: 50%;
     background-size: cover;
-    transform: translate(217.5% , -41.25%);
+    transform: translate(217.5%, -41.25%);
     z-index: 114;
     color: #ffffff;
     background: no-repeat center;
 }
 
-.vector-46{
+.vector-46 {
     position: absolute;
     width: 40px;
     height: 40px;
@@ -2214,7 +2217,7 @@
     background: no-repeat center;
 }
 
-.vector-47{
+.vector-47 {
     position: absolute;
     width: 40px;
     height: 40px;
@@ -2227,7 +2230,7 @@
     background: no-repeat center;
 }
 
-.vector-48{
+.vector-48 {
     position: absolute;
     width: 40px;
     height: 40px;
